@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+   
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    background: none;
+}
+
+.left{
+    float: left;
+    width: 60%;
+    height: 68%;
+    border-radius: 25px;
+    
+}
+
+.right{
+    float: right;
+    width: 40%;
+    height: 80%;
+    border-radius: 32px;
+    background-color: #ffffff;
+}
+
+.botonera{
+    float: left;
+    width: 60%;
+    height: auto;
+    border-radius: 25px;
+  
+}
+
+.logoImg{
+    
+    float: inherit;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.titulo{
+    float:inherit;
+    margin-left: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+.texto-entrada{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC;
+}
+#neneLupa{
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+
+}
+#textoDerecha{
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+
+}
+#textoAbajo{
+    position: static;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+  
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 16px;
+    padding: 2%;
+}
+.frame1{
+    margin-left: 10%;
+    text-shadow: #495057;
+}
+
+#botonEncriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    font-size: 18px; 
+    color: #D8DFE8;
+}
+
+#botonDesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 5%;
+    background: #D8DFE8;
+    font-size: 18px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+}
+
+#botonCopiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    display: none;
+}
+.pie{
+    text-align: center;
+    font-size: small;
+    float: inline-end;
+}

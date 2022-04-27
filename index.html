@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+       <title>Codificador</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="Logoa.svg">
+            <h1 class="titulo">De/Codificador de Mensajes</h1>
+        </div>
+
+        <div class="left">
+           <input class="texto-entrada" name="entrada-texto" id="textoEntrada" placeholder="Ingrese el texto aquí">
+        </div>
+        
+        <div class="right">
+           <img src="Muneco.png" id="neneLupa">
+           <h1 id="textoDerecha">Ningún mensaje fue encontrado</h1>
+           <p id="textoAbajo">Ingresa el texto que desees encriptar o desencriptar en la parte izquierda</p>
+           <button id="botonCopiar" type="button" onclick="copiarAlPortapapeles()">Copiar</button>
+        </div>
+        <div class="frame1"><img src="exclamation.png">Solo minúsculas y sin acentos</div>
+
+        <div class="botonera">
+            <button type="button" id="botonEncriptar" onclick="codificar(textoEntrada.value)">Encriptar</button>
+            <button type="button" id="botonDesencriptar" onclick="decodificar(textoEntrada.value)">Desencriptar</button>
+        </div>
+        
+    </div>
+<footer>
+    <p class="pie">Desarrollado por Matias O.</p>
+</footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
