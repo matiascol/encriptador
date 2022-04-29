@@ -1,4 +1,5 @@
 
+
 function regla(x) {
     switch(x) {
     case 'e': return 'enter';
